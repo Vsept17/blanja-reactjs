@@ -1,0 +1,130 @@
+.main {
+    margin-top: 100px;
+  }
+
+  .font-p-title {
+    font-size: 12px;
+    color: #9b9b9b;
+  }
+
+  ul.horizontal-list {
+    min-width: 100%;
+    list-style: none;
+    margin-left: -30px;
+  }
+
+  ul.horizontal-list li {
+    margin: 14px 10px 0 0;
+    display: inline;
+  }
+  .color-selected {
+    width: 40px;
+    height: 40px;
+    border-spacing: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-buy {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 100%;
+    height: 36px;
+    font-size: 12px;
+    background-color: #db3022;
+    color: #fff;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .plus {
+      color:black
+  }
+
+  .minus{
+      color:white
+  }
+  .checked-box{
+    margin-top: -20px;
+}
+
+  /* Small */
+  @media (max-width: 767.98px) {
+    .btn {
+      position: fixed;
+      height: 60px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: white !important;
+      text-align: center;
+    }
+
+    .btnBtm {
+      margin: 2px;
+    }
+
+    .btnGrup {
+      display: none;
+    }
+    .detail-price{
+        padding-bottom: 60px;
+    }
+    .checked-box{
+        margin-top: 10px;
+    }
+  }
+
+  /* Medium */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .btn {
+      position: fixed;
+      height: 60px;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background: white !important;
+      text-align: center;
+      padding: 5;
+    }
+
+    .btnBtm {
+      margin: 2px;
+    }
+
+    .btnGrup {
+      display: none;
+    }
+    .color-selected {
+        width: 20px;
+        height: 20px;
+        border-spacing: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .cost{
+          font-size: 11px;
+      }
+      .card-title{
+          font-size: 13px;
+      }
+      .card-text{
+        font-size: 13px;
+      }
+      ul.horizontal-list {
+        min-width: 100%;
+        list-style: none;
+        margin-left: -50px;
+      }
+      ul.horizontal-list li {
+        margin: 14px 10px 0 0;
+        display: inline;
+      }
+  }

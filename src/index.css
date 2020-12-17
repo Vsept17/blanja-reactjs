@@ -1,0 +1,6 @@
+  :root {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    src: url(../src/Assets/Fonts/Metropolis-Regular.otf) format("otf");
+  }
